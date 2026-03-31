@@ -1,0 +1,2951 @@
+{
+  "version": "2.8",
+  "children": [
+    {
+      "type": "frame",
+      "id": "09FWP",
+      "x": 0,
+      "y": 1394,
+      "name": "Lo-Fi v2 Home",
+      "clip": true,
+      "width": 390,
+      "height": 844,
+      "fill": "#F5F0EB",
+      "layout": "vertical",
+      "gap": 40,
+      "padding": [
+        48,
+        24,
+        24,
+        24
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "gap3W",
+          "name": "hdr",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 6,
+          "children": [
+            {
+              "type": "text",
+              "id": "MS3dA",
+              "name": "logo",
+              "fill": "#1A1A1A",
+              "content": "> analogue_",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 24,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "PMDlM",
+              "name": "tag",
+              "fill": "#999999",
+              "content": "// what are you experiencing?",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "GT6PV",
+          "name": "grid",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 14,
+          "children": [
+            {
+              "type": "frame",
+              "id": "sda9u",
+              "name": "r1",
+              "width": "fill_container",
+              "gap": 14,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "kyFqk",
+                  "name": "Games",
+                  "width": "fill_container",
+                  "stroke": {
+                    "thickness": 2,
+                    "fill": "#1A1A1A"
+                  },
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "xtGmh",
+                      "name": "gtop",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "albacalbeto",
+                        "link": "https://unsplash.com/@albacalbeto",
+                        "author": "Alba Calbetó"
+                      },
+                      "width": "fill_container",
+                      "height": 170,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1768312177795-9827a274f2a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM1NDkzOTd8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      },
+                      "layout": "none"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "zmoqR",
+                      "name": "gbot",
+                      "width": "fill_container",
+                      "fill": "#1A1A1A",
+                      "layout": "vertical",
+                      "gap": 3,
+                      "padding": [
+                        10,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "8WRpu",
+                          "name": "glbl",
+                          "fill": "#999999",
+                          "content": "[games]",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 10,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "nY88q",
+                          "name": "gtit",
+                          "fill": "#F5F0EB",
+                          "content": "elden_ring",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 13,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "our9S",
+                          "name": "gmet",
+                          "fill": "#999999",
+                          "content": "fromsoftware · feb_03",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 10,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "p1gMg",
+                  "name": "Music",
+                  "width": "fill_container",
+                  "stroke": {
+                    "thickness": 2,
+                    "fill": "#1A1A1A"
+                  },
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "N88ie",
+                      "name": "mtop",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "googledeepmind",
+                        "link": "https://unsplash.com/@googledeepmind",
+                        "author": "Google DeepMind"
+                      },
+                      "width": "fill_container",
+                      "height": 170,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1664448213918-42cb76919f76?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM1NDk0MDd8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      },
+                      "layout": "none"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "K4lKO",
+                      "name": "mbot",
+                      "width": "fill_container",
+                      "fill": "#1A1A1A",
+                      "layout": "vertical",
+                      "gap": 3,
+                      "padding": [
+                        10,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "beZUW",
+                          "name": "mlbl",
+                          "fill": "#999999",
+                          "content": "[music]",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 10,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "cvm3R",
+                          "name": "mtit",
+                          "fill": "#F5F0EB",
+                          "content": "in_rainbows",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 13,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "emw8c",
+                          "name": "mmet",
+                          "fill": "#999999",
+                          "content": "radiohead · mar_01",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 10,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "YZCRk",
+              "name": "r2",
+              "width": "fill_container",
+              "gap": 14,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "CM9XT",
+                  "name": "Books Empty",
+                  "width": "fill_container",
+                  "stroke": {
+                    "thickness": 2,
+                    "fill": "#CCCCCC"
+                  },
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "BzJJf",
+                      "name": "btop",
+                      "width": "fill_container",
+                      "height": 170,
+                      "fill": "#EDE8E2",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "20Tne",
+                          "name": "bplus",
+                          "fill": "#CCCCCC",
+                          "content": "+",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 28,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "eisE6",
+                      "name": "bbot",
+                      "width": "fill_container",
+                      "fill": "#E8E2DA",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "padding": [
+                        10,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "78QLH",
+                          "name": "blbl",
+                          "fill": "#AAAAAA",
+                          "content": "[books]",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 10,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "mxS6Y",
+                          "name": "bhint",
+                          "fill": "#AAAAAA",
+                          "content": "empty_slot",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 13,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Bwpiz",
+                  "name": "Movies Empty",
+                  "width": "fill_container",
+                  "stroke": {
+                    "thickness": 2,
+                    "fill": "#CCCCCC"
+                  },
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "pm9Sg",
+                      "name": "mvtop",
+                      "width": "fill_container",
+                      "height": 170,
+                      "fill": "#EDE8E2",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ydd88",
+                          "name": "mvplus",
+                          "fill": "#CCCCCC",
+                          "content": "+",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 28,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "5VKrc",
+                      "name": "mvbot",
+                      "width": "fill_container",
+                      "fill": "#E8E2DA",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "padding": [
+                        10,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "fDq3r",
+                          "name": "mvlbl",
+                          "fill": "#AAAAAA",
+                          "content": "[movies]",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 10,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "7PZ1n",
+                          "name": "mvhint",
+                          "fill": "#AAAAAA",
+                          "content": "empty_slot",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 13,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "CcoND",
+      "x": 490,
+      "y": 1394,
+      "name": "Lo-Fi v2 Category",
+      "clip": true,
+      "width": 390,
+      "height": 844,
+      "fill": "#F5F0EB",
+      "layout": "vertical",
+      "gap": 28,
+      "padding": [
+        48,
+        24,
+        24,
+        24
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "zdGCj",
+          "name": "ch",
+          "width": "fill_container",
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "PeLW7",
+              "name": "cbk",
+              "fill": "#999999",
+              "content": "< back",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "PtVIH",
+              "name": "clbl",
+              "fill": "#999999",
+              "content": "[games]",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 12,
+              "fontWeight": "500"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "dt94I",
+          "name": "cas",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 12,
+          "children": [
+            {
+              "type": "text",
+              "id": "FP8fb",
+              "name": "calbl",
+              "fill": "#999999",
+              "content": "// now_playing",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 11,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "Ixza2",
+              "name": "cacard",
+              "width": "fill_container",
+              "fill": "#1A1A1A",
+              "stroke": {
+                "thickness": 2,
+                "fill": "#1A1A1A"
+              },
+              "gap": 14,
+              "padding": 14,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "jbkLq",
+                  "name": "cacov",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "cameraobscura2000",
+                    "link": "https://unsplash.com/@cameraobscura2000",
+                    "author": "camera obscura"
+                  },
+                  "width": 80,
+                  "height": 100,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1719532945060-5c19c099811d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM1NDk0MzR8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "aDrOW",
+                  "name": "cainfo",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "x7CNS",
+                      "name": "catitle",
+                      "fill": "#F5F0EB",
+                      "content": "elden_ring",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "7gNKq",
+                      "name": "cameta",
+                      "fill": "#999999",
+                      "content": "fromsoftware // 2022",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "L53Yl",
+                      "name": "cadate",
+                      "fill": "#999999",
+                      "content": "$ started feb_03",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "w2wJL",
+                      "name": "cabtns",
+                      "width": "fill_container",
+                      "gap": 8,
+                      "padding": [
+                        6,
+                        0,
+                        0,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "C0UPO",
+                          "name": "cabtn1",
+                          "fill": "#F5F0EB",
+                          "padding": [
+                            6,
+                            12
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "EQ8pM",
+                              "name": "cabtn1t",
+                              "fill": "#1A1A1A",
+                              "content": "[complete]",
+                              "fontFamily": "IBM Plex Mono",
+                              "fontSize": 11,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "laQWm",
+                          "name": "cabtn2",
+                          "stroke": {
+                            "thickness": 1,
+                            "fill": "#666666"
+                          },
+                          "padding": [
+                            6,
+                            12
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "6BUAw",
+                              "name": "cabtn2t",
+                              "fill": "#999999",
+                              "content": "[drop]",
+                              "fontFamily": "IBM Plex Mono",
+                              "fontSize": 11,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "O1yvp",
+          "name": "cdiv",
+          "fill": "#DDD8D2",
+          "width": "fill_container",
+          "height": 2
+        },
+        {
+          "type": "frame",
+          "id": "p43eU",
+          "name": "cblog",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 12,
+          "children": [
+            {
+              "type": "frame",
+              "id": "OY8nV",
+              "name": "cbhdr",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "evWEV",
+                  "name": "cblbl",
+                  "fill": "#999999",
+                  "content": "// up_next",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "kuy5G",
+                  "name": "cbcnt",
+                  "fill": "#999999",
+                  "content": "[3/5]",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "0Dfw7",
+              "name": "cblist",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "rO4Zz",
+                  "name": "cb1",
+                  "width": "fill_container",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#DDD8D2"
+                  },
+                  "gap": 10,
+                  "padding": [
+                    8,
+                    10
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "l8p2d",
+                      "name": "cb1sq",
+                      "width": 32,
+                      "height": 32,
+                      "fill": "#E8E2DA"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "YCVr0",
+                      "name": "cb1i",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 1,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "JtsPI",
+                          "name": "cb1t",
+                          "fill": "#1A1A1A",
+                          "content": "hollow_knight_silksong",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 12,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "irRLn",
+                          "name": "cb1m",
+                          "fill": "#999999",
+                          "content": "team_cherry",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 10,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "CHfiJ",
+                      "name": "s1",
+                      "fill": "#1A1A1A",
+                      "padding": [
+                        4,
+                        8
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "WCncy",
+                          "name": "s1t",
+                          "fill": "#F5F0EB",
+                          "content": "▸",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ms1Vb",
+                  "name": "cb2",
+                  "width": "fill_container",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#DDD8D2"
+                  },
+                  "gap": 10,
+                  "padding": [
+                    8,
+                    10
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Igpnz",
+                      "name": "cb2sq",
+                      "width": 32,
+                      "height": 32,
+                      "fill": "#E8E2DA"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Ami9u",
+                      "name": "cb2i",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 1,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "HDDNA",
+                          "name": "cb2t",
+                          "fill": "#1A1A1A",
+                          "content": "celeste",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 12,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "oAmbF",
+                          "name": "cb2m",
+                          "fill": "#999999",
+                          "content": "maddy_makes_games",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 10,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "KxGo0",
+                      "name": "s2",
+                      "fill": "#1A1A1A",
+                      "padding": [
+                        4,
+                        8
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "kbbOW",
+                          "name": "s2t",
+                          "fill": "#F5F0EB",
+                          "content": "▸",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "5dXpJ",
+                  "name": "cb3",
+                  "width": "fill_container",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#DDD8D2"
+                  },
+                  "gap": 10,
+                  "padding": [
+                    8,
+                    10
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ztmwQ",
+                      "name": "cb3sq",
+                      "width": 32,
+                      "height": 32,
+                      "fill": "#E8E2DA"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "K4hS9",
+                      "name": "cb3i",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 1,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "zZHM4",
+                          "name": "cb3t",
+                          "fill": "#1A1A1A",
+                          "content": "disco_elysium",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 12,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "elJHA",
+                          "name": "cb3m",
+                          "fill": "#999999",
+                          "content": "za/um",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 10,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "b7BSg",
+                      "name": "s3",
+                      "fill": "#1A1A1A",
+                      "padding": [
+                        4,
+                        8
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "67BKz",
+                          "name": "s3t",
+                          "fill": "#F5F0EB",
+                          "content": "▸",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "lCd0f",
+          "name": "cdiv2",
+          "fill": "#DDD8D2",
+          "width": "fill_container",
+          "height": 2
+        },
+        {
+          "type": "frame",
+          "id": "AvGv8",
+          "name": "ccomp",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 12,
+          "children": [
+            {
+              "type": "text",
+              "id": "ZG7lt",
+              "name": "ccl",
+              "fill": "#999999",
+              "content": "// completed",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 11,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "JYGM7",
+              "name": "cci",
+              "width": "fill_container",
+              "stroke": {
+                "thickness": 1,
+                "fill": "#DDD8D2"
+              },
+              "gap": 10,
+              "padding": 10,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "y5UeB",
+                  "name": "ccisq",
+                  "width": 40,
+                  "height": 40,
+                  "fill": "#E8E2DA"
+                },
+                {
+                  "type": "frame",
+                  "id": "baA7k",
+                  "name": "cciinfo",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "PoDVT",
+                      "name": "ccit",
+                      "fill": "#1A1A1A",
+                      "content": "hades",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 13,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ARJYM",
+                      "name": "ccis",
+                      "fill": "#1A1A1A",
+                      "content": "★★★★★",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "UkOfd",
+                      "name": "ccir",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "perfect pacing. every run felt meaningful. the way the story unfolds through repetition is genius.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "eDJOf",
+                      "name": "ccid",
+                      "fill": "#AAAAAA",
+                      "content": "jan_12 >> jan_28",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 10,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "Uo2I3",
+      "x": 980,
+      "y": 1394,
+      "name": "Lo-Fi v2 Review",
+      "clip": true,
+      "width": 390,
+      "height": 844,
+      "fill": "#F5F0EB",
+      "layout": "vertical",
+      "gap": 28,
+      "padding": [
+        48,
+        24,
+        24,
+        24
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "UB8Ol",
+          "name": "rh",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 6,
+          "children": [
+            {
+              "type": "text",
+              "id": "Ntu4L",
+              "name": "rht",
+              "fill": "#1A1A1A",
+              "content": "> quest_complete_",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 22,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "etx13",
+              "name": "rhs",
+              "fill": "#999999",
+              "content": "// take a moment to reflect.",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "jkPof",
+          "name": "rcard",
+          "width": "fill_container",
+          "fill": "#1A1A1A",
+          "gap": 14,
+          "padding": 14,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "Ja0a0",
+              "name": "rcov",
+              "metadata": {
+                "type": "unsplash",
+                "username": "lilianfyt",
+                "link": "https://unsplash.com/@lilianfyt",
+                "author": "Lilian Fayot"
+              },
+              "width": 56,
+              "height": 70,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1769769436014-6c7a3f9f9754?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM1NDk0ODN8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              }
+            },
+            {
+              "type": "frame",
+              "id": "0TGI7",
+              "name": "rinfo",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 3,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "JaWvm",
+                  "name": "rtit",
+                  "fill": "#F5F0EB",
+                  "content": "elden_ring",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 16,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "gRn05",
+                  "name": "rmet",
+                  "fill": "#999999",
+                  "content": "fromsoftware // 2022",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "Vc5hF",
+                  "name": "rdat",
+                  "fill": "#999999",
+                  "content": "feb_03 >> mar_12",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "jagl8",
+          "name": "rsec",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 10,
+          "children": [
+            {
+              "type": "text",
+              "id": "lKwwA",
+              "name": "rslbl",
+              "fill": "#999999",
+              "content": "// rating",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 11,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "STNYf",
+              "name": "rstars",
+              "gap": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "3RBvE",
+                  "name": "rs1",
+                  "fill": "#1A1A1A",
+                  "content": "[★]",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "35QcA",
+                  "name": "rs2",
+                  "fill": "#1A1A1A",
+                  "content": "[★]",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "sP9FY",
+                  "name": "rs3",
+                  "fill": "#1A1A1A",
+                  "content": "[★]",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "TbhDq",
+                  "name": "rs4",
+                  "fill": "#1A1A1A",
+                  "content": "[★]",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "0PK6i",
+                  "name": "rs5",
+                  "fill": "#CCCCCC",
+                  "content": "[☆]",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "6T6wv",
+          "name": "dsec",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 10,
+          "children": [
+            {
+              "type": "text",
+              "id": "3W2Bu",
+              "name": "dslbl",
+              "fill": "#999999",
+              "content": "// what_stuck_with_you?",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 11,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "iHrVa",
+              "name": "darea",
+              "width": "fill_container",
+              "height": 140,
+              "fill": "#FFFFFF",
+              "stroke": {
+                "thickness": 2,
+                "fill": "#1A1A1A"
+              },
+              "layout": "vertical",
+              "padding": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "N3dXY",
+                  "name": "dcont",
+                  "fill": "#1A1A1A",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "the scale of the world never stopped being overwhelming, even after 80 hours. the moment i reached mountaintops of the giants i just sat there for five minutes. malenia almost broke me but the victory was worth every attempt.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "kuOKs",
+                  "name": "dcurs",
+                  "fill": "#1A1A1A",
+                  "content": "_",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 14,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "MwoSW",
+              "name": "vbtn",
+              "stroke": {
+                "thickness": 2,
+                "fill": "#CCCCCC"
+              },
+              "gap": 6,
+              "padding": [
+                6,
+                12
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "JmPlQ",
+                  "name": "vico",
+                  "width": 12,
+                  "height": 12,
+                  "iconFontName": "mic",
+                  "iconFontFamily": "lucide",
+                  "fill": "#999999"
+                },
+                {
+                  "type": "text",
+                  "id": "zWhgN",
+                  "name": "vlbl",
+                  "fill": "#999999",
+                  "content": "$ speak_instead",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "DueTE",
+          "name": "spacer",
+          "width": "fill_container",
+          "height": "fill_container"
+        },
+        {
+          "type": "frame",
+          "id": "SotiY",
+          "name": "sbtn",
+          "width": "fill_container",
+          "fill": "#1A1A1A",
+          "padding": [
+            12,
+            0
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "IdcwB",
+              "name": "stxt",
+              "fill": "#F5F0EB",
+              "content": "[save_reflection]",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 14,
+              "fontWeight": "700"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "Q7QE2",
+      "x": 1470,
+      "y": 1394,
+      "name": "Lo-Fi v2 Add Item",
+      "clip": true,
+      "width": 390,
+      "height": 844,
+      "fill": "#F5F0EB",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": [
+        48,
+        24,
+        24,
+        24
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "he3OJ",
+          "name": "ch",
+          "width": "fill_container",
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "BvgT8",
+              "name": "cbk",
+              "fill": "#999999",
+              "content": "< back",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "71iLV",
+              "name": "clbl",
+              "fill": "#999999",
+              "content": "[games]",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 12,
+              "fontWeight": "500"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "HYpaB",
+          "name": "titlesec",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 4,
+          "children": [
+            {
+              "type": "text",
+              "id": "Ubb7k",
+              "name": "title",
+              "fill": "#1A1A1A",
+              "content": "// add_to_backlog",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 18,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "TzhmU",
+              "name": "subtitle",
+              "fill": "#999999",
+              "content": "search or create a custom entry.",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 11,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "l4IXX",
+          "name": "searchbox",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "stroke": {
+            "thickness": 2,
+            "fill": "#1A1A1A"
+          },
+          "gap": 10,
+          "padding": [
+            12,
+            14
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon_font",
+              "id": "UYg4m",
+              "name": "searchico",
+              "width": 16,
+              "height": 16,
+              "iconFontName": "search",
+              "iconFontFamily": "lucide",
+              "fill": "#999999"
+            },
+            {
+              "type": "text",
+              "id": "3g4Ei",
+              "name": "searchtext",
+              "fill": "#1A1A1A",
+              "content": "elden ri...",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "7N4LB",
+              "name": "searchcursor",
+              "fill": "#1A1A1A",
+              "content": "|",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 13,
+              "fontWeight": "700"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "nKDMt",
+          "name": "resultslbl",
+          "fill": "#999999",
+          "content": "// results",
+          "fontFamily": "IBM Plex Mono",
+          "fontSize": 11,
+          "fontWeight": "500"
+        },
+        {
+          "type": "frame",
+          "id": "wTHv6",
+          "name": "results",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 6,
+          "children": [
+            {
+              "type": "frame",
+              "id": "9VYWB",
+              "name": "r1",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "stroke": {
+                "thickness": 1,
+                "fill": "#DDD8D2"
+              },
+              "gap": 12,
+              "padding": [
+                12,
+                14
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "8kaiT",
+                  "name": "r1cov",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "beckerworks",
+                    "link": "https://unsplash.com/@beckerworks",
+                    "author": "David Becker"
+                  },
+                  "width": 40,
+                  "height": 50,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1707305318840-ed441dd3881a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM2MjQ5MTZ8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "4riWa",
+                  "name": "r1info",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 2,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "kGmqW",
+                      "name": "r1tit",
+                      "fill": "#1A1A1A",
+                      "content": "elden ring",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 13,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "f2PmF",
+                      "name": "r1met",
+                      "fill": "#999999",
+                      "content": "fromsoftware · 2022 · ps5, pc",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 10,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "rAa1t",
+                  "name": "r1add",
+                  "fill": "#1A1A1A",
+                  "padding": [
+                    6,
+                    10
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "TfU1K",
+                      "name": "r1addt",
+                      "fill": "#F5F0EB",
+                      "content": "+ add",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 10,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "dimA9",
+              "name": "r2",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "stroke": {
+                "thickness": 1,
+                "fill": "#DDD8D2"
+              },
+              "gap": 12,
+              "padding": [
+                12,
+                14
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "w4YpS",
+                  "name": "r2cov",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "chriswtr",
+                    "link": "https://unsplash.com/@chriswtr",
+                    "author": "chris wang"
+                  },
+                  "width": 40,
+                  "height": 50,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1759104050951-b66f5f83d055?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM2MjQ5MTd8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "b3b9N",
+                  "name": "r2info",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 2,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "a5R6g",
+                      "name": "r2tit",
+                      "fill": "#1A1A1A",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "elden ring: shadow of the erdtree",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 13,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "6D7cR",
+                      "name": "r2met",
+                      "fill": "#999999",
+                      "content": "fromsoftware · 2024 · dlc",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 10,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "LR0uq",
+                  "name": "r2add",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#DDD8D2"
+                  },
+                  "padding": [
+                    6,
+                    10
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "IHHod",
+                      "name": "r2addt",
+                      "fill": "#999999",
+                      "content": "+ add",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 10,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "X3kWH",
+              "name": "r3",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "stroke": {
+                "thickness": 1,
+                "fill": "#DDD8D2"
+              },
+              "gap": 12,
+              "padding": [
+                12,
+                14
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "xP7ET",
+                  "name": "r3cov",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "iam_os",
+                    "link": "https://unsplash.com/@iam_os",
+                    "author": "iam_os"
+                  },
+                  "width": 40,
+                  "height": 50,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1608634849178-546c44d3b4c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM2MjQ5MTd8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "trsrJ",
+                  "name": "r3info",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 2,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "WRE4K",
+                      "name": "r3tit",
+                      "fill": "#1A1A1A",
+                      "content": "elden ring: nightreign",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 13,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "BcOWf",
+                      "name": "r3met",
+                      "fill": "#999999",
+                      "content": "fromsoftware · 2025 · ps5, pc",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 10,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "PAvjo",
+                  "name": "r3add",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#DDD8D2"
+                  },
+                  "padding": [
+                    6,
+                    10
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "rUFGM",
+                      "name": "r3addt",
+                      "fill": "#999999",
+                      "content": "+ add",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 10,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "JrkVQ",
+          "name": "divsec",
+          "fill": "#DDD8D2",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "uufIp",
+          "name": "customsec",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 10,
+          "children": [
+            {
+              "type": "text",
+              "id": "rUcUm",
+              "name": "customlbl",
+              "fill": "#999999",
+              "content": "// can't find it?",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 11,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "CXHyn",
+              "name": "custombtn",
+              "width": "fill_container",
+              "stroke": {
+                "thickness": 2,
+                "fill": "#1A1A1A"
+              },
+              "gap": 8,
+              "padding": [
+                14,
+                0
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "WVMay",
+                  "name": "customico",
+                  "width": 14,
+                  "height": 14,
+                  "iconFontName": "pencil",
+                  "iconFontFamily": "lucide",
+                  "fill": "#1A1A1A"
+                },
+                {
+                  "type": "text",
+                  "id": "VQymX",
+                  "name": "customtxt",
+                  "fill": "#1A1A1A",
+                  "content": "create custom entry",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 12,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "X8GR4",
+          "name": "backloginfo",
+          "width": "fill_container",
+          "fill": "#E8E2DA",
+          "gap": 6,
+          "padding": [
+            10,
+            14
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon_font",
+              "id": "kJhrM",
+              "name": "backlogico",
+              "width": 14,
+              "height": 14,
+              "iconFontName": "info",
+              "iconFontFamily": "lucide",
+              "fill": "#999999"
+            },
+            {
+              "type": "text",
+              "id": "wiQ6Y",
+              "name": "backlogtxt",
+              "fill": "#999999",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "items are added to your backlog. start one from there when your active slot is free.",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 10,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "M0CcD",
+      "x": 1960,
+      "y": 1394,
+      "name": "Lo-Fi v2 Empty Slot",
+      "clip": true,
+      "width": 390,
+      "height": 844,
+      "fill": "#F5F0EB",
+      "layout": "vertical",
+      "gap": 28,
+      "padding": [
+        48,
+        24,
+        24,
+        24
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "tIN7n",
+          "name": "ch",
+          "width": "fill_container",
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "hyEhU",
+              "name": "cbk",
+              "fill": "#999999",
+              "content": "< back",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "91PR8",
+              "name": "clbl",
+              "fill": "#999999",
+              "content": "[games]",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 12,
+              "fontWeight": "500"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "3uhro",
+          "name": "asec",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 12,
+          "children": [
+            {
+              "type": "text",
+              "id": "7NabN",
+              "name": "albl",
+              "fill": "#999999",
+              "content": "// now_playing",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 11,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "uwsTT",
+              "name": "emptycard",
+              "width": "fill_container",
+              "stroke": {
+                "thickness": 1,
+                "fill": "#DDD8D2"
+              },
+              "layout": "vertical",
+              "gap": 8,
+              "padding": [
+                28,
+                20
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "ANQNb",
+                  "name": "emptyico",
+                  "width": 28,
+                  "height": 28,
+                  "iconFontName": "gamepad-2",
+                  "iconFontFamily": "lucide",
+                  "fill": "#CCCCCC"
+                },
+                {
+                  "type": "text",
+                  "id": "zdAIB",
+                  "name": "emptytxt",
+                  "fill": "#CCCCCC",
+                  "content": "slot is empty",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 14,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "YlUZU",
+                  "name": "emptysub",
+                  "fill": "#AAAAAA",
+                  "content": "start something from your backlog",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 10,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "STOiZ",
+          "name": "div1",
+          "fill": "#DDD8D2",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "mWRbo",
+          "name": "bsec",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 12,
+          "children": [
+            {
+              "type": "frame",
+              "id": "DNDze",
+              "name": "bhdr",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "zzf4r",
+                  "name": "blbl",
+                  "fill": "#999999",
+                  "content": "// up_next",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "ZqDtS",
+                  "name": "bcnt",
+                  "fill": "#999999",
+                  "content": "[3/5]",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "WJOBT",
+              "name": "blist",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 6,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "znjJh",
+                  "name": "bi1",
+                  "width": "fill_container",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#DDD8D2"
+                  },
+                  "gap": 10,
+                  "padding": [
+                    10,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "40yoh",
+                      "name": "bi1sq",
+                      "width": 32,
+                      "height": 32,
+                      "fill": "#E8E2DA"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "lVBnO",
+                      "name": "bi1i",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 1,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "NPFyP",
+                          "name": "bi1t",
+                          "fill": "#1A1A1A",
+                          "content": "hollow_knight_silksong",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 12,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "sAvun",
+                          "name": "bi1m",
+                          "fill": "#999999",
+                          "content": "team_cherry",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 10,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "tkWgB",
+                      "name": "bi1s",
+                      "fill": "#1A1A1A",
+                      "padding": [
+                        6,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ZVNJp",
+                          "name": "bi1st",
+                          "fill": "#F5F0EB",
+                          "content": "start ▸",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 10,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "xkWt1",
+                  "name": "bi2",
+                  "width": "fill_container",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#DDD8D2"
+                  },
+                  "gap": 10,
+                  "padding": [
+                    10,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "jqv86",
+                      "name": "bi2sq",
+                      "width": 32,
+                      "height": 32,
+                      "fill": "#E8E2DA"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "C2Yr5",
+                      "name": "bi2i",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 1,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "VVB3O",
+                          "name": "bi2t",
+                          "fill": "#1A1A1A",
+                          "content": "celeste",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 12,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Dtppl",
+                          "name": "bi2m",
+                          "fill": "#999999",
+                          "content": "maddy_makes_games",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 10,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "I9XtC",
+                      "name": "bi2s",
+                      "fill": "#1A1A1A",
+                      "padding": [
+                        6,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "OjlfZ",
+                          "name": "bi2st",
+                          "fill": "#F5F0EB",
+                          "content": "start ▸",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 10,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "atO4L",
+                  "name": "bi3",
+                  "width": "fill_container",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#DDD8D2"
+                  },
+                  "gap": 10,
+                  "padding": [
+                    10,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "R5Aat",
+                      "name": "bi3sq",
+                      "width": 32,
+                      "height": 32,
+                      "fill": "#E8E2DA"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "jvhUE",
+                      "name": "bi3i",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 1,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "62PfO",
+                          "name": "bi3t",
+                          "fill": "#1A1A1A",
+                          "content": "disco_elysium",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 12,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "O52Js",
+                          "name": "bi3m",
+                          "fill": "#999999",
+                          "content": "za/um",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 10,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "wc11F",
+                      "name": "bi3s",
+                      "fill": "#1A1A1A",
+                      "padding": [
+                        6,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "PSHTU",
+                          "name": "bi3st",
+                          "fill": "#F5F0EB",
+                          "content": "start ▸",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 10,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "nmJjq",
+              "name": "addbtn",
+              "width": "fill_container",
+              "stroke": {
+                "thickness": 2,
+                "fill": "#1A1A1A"
+              },
+              "gap": 6,
+              "padding": [
+                10,
+                0
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "fK3qi",
+                  "name": "addico",
+                  "width": 14,
+                  "height": 14,
+                  "iconFontName": "plus",
+                  "iconFontFamily": "lucide",
+                  "fill": "#1A1A1A"
+                },
+                {
+                  "type": "text",
+                  "id": "JaeI6",
+                  "name": "addtxt",
+                  "fill": "#1A1A1A",
+                  "content": "add to backlog",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "mgxTx",
+          "name": "div2",
+          "fill": "#DDD8D2",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "1fxJt",
+          "name": "csec",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 10,
+          "children": [
+            {
+              "type": "text",
+              "id": "abL3C",
+              "name": "clbl",
+              "fill": "#999999",
+              "content": "// completed",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 11,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "fbJMc",
+              "name": "ci",
+              "width": "fill_container",
+              "gap": 10,
+              "padding": [
+                10,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "OCUau",
+                  "name": "cisq",
+                  "width": 40,
+                  "height": 40,
+                  "fill": "#E8E2DA"
+                },
+                {
+                  "type": "frame",
+                  "id": "0hYqR",
+                  "name": "ciinfo",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 3,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "BQSah",
+                      "name": "cit",
+                      "fill": "#1A1A1A",
+                      "content": "hades",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 13,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "kIM7h",
+                      "name": "cis",
+                      "fill": "#1A1A1A",
+                      "content": "★★★★★",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "LvuJM",
+                      "name": "cidate",
+                      "fill": "#AAAAAA",
+                      "content": "jan_12 >> jan_28",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 10,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "yQRPc",
+      "x": 2450,
+      "y": 1394,
+      "name": "Lo-Fi v2 Drop Confirm",
+      "clip": true,
+      "width": 390,
+      "height": 844,
+      "fill": "#F5F0EB",
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "cWVyt",
+          "x": 0,
+          "y": 0,
+          "name": "bg",
+          "width": 390,
+          "height": 844,
+          "fill": "#1A1A1A88",
+          "layout": "vertical",
+          "padding": [
+            0,
+            20,
+            40,
+            20
+          ],
+          "justifyContent": "end",
+          "children": [
+            {
+              "type": "frame",
+              "id": "1Tqyl",
+              "name": "modal",
+              "width": "fill_container",
+              "fill": "#F5F0EB",
+              "layout": "vertical",
+              "gap": 20,
+              "padding": [
+                28,
+                24
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "AYOKa",
+                  "name": "mhdr",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "KH7m1",
+                      "name": "mtitle",
+                      "fill": "#1A1A1A",
+                      "content": "// drop_this?",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ELuQp",
+                      "name": "msub",
+                      "fill": "#999999",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "this can't be undone. the item will move to your dropped log.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "7Ntn8",
+                  "name": "mcard",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#DDD8D2"
+                  },
+                  "gap": 12,
+                  "padding": [
+                    12,
+                    14
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "YmglN",
+                      "name": "mcov",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "mlapergolaphoto",
+                        "link": "https://unsplash.com/@mlapergolaphoto",
+                        "author": "Mario La Pergola"
+                      },
+                      "width": 40,
+                      "height": 50,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1634324033315-68839fa5af16?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM2MjUyMjV8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "17Mpj",
+                      "name": "minfo",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "waUKd",
+                          "name": "mtit",
+                          "fill": "#1A1A1A",
+                          "content": "elden_ring",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 13,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "8bWHN",
+                          "name": "mmet",
+                          "fill": "#999999",
+                          "content": "fromsoftware · started feb_03",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 10,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "wwAMV",
+                          "name": "mdays",
+                          "fill": "#AAAAAA",
+                          "content": "38 days in",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 10,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ldi7k",
+                  "name": "mbtns",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ZywvF",
+                      "name": "mbtn1",
+                      "width": "fill_container",
+                      "fill": "#1A1A1A",
+                      "padding": [
+                        14,
+                        0
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "6JtrM",
+                          "name": "mbtn1t",
+                          "fill": "#F5F0EB",
+                          "content": "yes, drop it",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 13,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "OgHtq",
+                      "name": "mbtn2",
+                      "width": "fill_container",
+                      "stroke": {
+                        "thickness": 2,
+                        "fill": "#DDD8D2"
+                      },
+                      "padding": [
+                        14,
+                        0
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "1edCc",
+                          "name": "mbtn2t",
+                          "fill": "#999999",
+                          "content": "keep playing",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 13,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "gf16K",
+      "x": 2940,
+      "y": 1394,
+      "name": "Lo-Fi v2 Added Confirm",
+      "clip": true,
+      "width": 390,
+      "height": 844,
+      "fill": "#F5F0EB",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": [
+        48,
+        24,
+        24,
+        24
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "NwvaB",
+          "name": "ch",
+          "width": "fill_container",
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "tNDPH",
+              "name": "cbk",
+              "fill": "#999999",
+              "content": "< back",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "Q10hy",
+              "name": "clbl",
+              "fill": "#999999",
+              "content": "[games]",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 12,
+              "fontWeight": "500"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "IbUzw",
+          "name": "success",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "stroke": {
+            "thickness": 1,
+            "fill": "#DDD8D2"
+          },
+          "layout": "vertical",
+          "gap": 12,
+          "padding": [
+            28,
+            20
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon_font",
+              "id": "ZlfKL",
+              "name": "sico",
+              "width": 32,
+              "height": 32,
+              "iconFontName": "check",
+              "iconFontFamily": "lucide",
+              "fill": "#1A1A1A"
+            },
+            {
+              "type": "text",
+              "id": "AZqPo",
+              "name": "stit",
+              "fill": "#1A1A1A",
+              "content": "added to backlog",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 16,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "rWCpB",
+              "name": "scard",
+              "width": "fill_container",
+              "fill": "#F5F0EB",
+              "gap": 12,
+              "padding": [
+                12,
+                14
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "mYTOa",
+                  "name": "scov",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "benjamin_photography",
+                    "link": "https://unsplash.com/@benjamin_photography",
+                    "author": "Benjamin Cheng"
+                  },
+                  "width": 44,
+                  "height": 54,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1692897403256-0a4c13fb392f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM2MjUyMzN8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "aN3rO",
+                  "name": "sinfo",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 2,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "zTe1e",
+                      "name": "stitle",
+                      "fill": "#1A1A1A",
+                      "content": "elden_ring",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 13,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "GTKXy",
+                      "name": "smeta",
+                      "fill": "#999999",
+                      "content": "fromsoftware · 2022",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 10,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "ohH53",
+              "name": "spos",
+              "fill": "#999999",
+              "content": "position 4 of 5 in your queue.",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 10,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "gNbVf",
+          "name": "nextsec",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 12,
+          "children": [
+            {
+              "type": "text",
+              "id": "slD1g",
+              "name": "nlbl",
+              "fill": "#999999",
+              "content": "// your backlog",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 11,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "QK9uI",
+              "name": "nlist",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 6,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "dlHO5",
+                  "name": "n1",
+                  "width": "fill_container",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#DDD8D2"
+                  },
+                  "gap": 8,
+                  "padding": [
+                    8,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "5K8oX",
+                      "name": "n1num",
+                      "fill": "#AAAAAA",
+                      "content": "01",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 10,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "YDq4e",
+                      "name": "n1t",
+                      "fill": "#1A1A1A",
+                      "content": "hollow_knight_silksong",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 11,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "gKaDO",
+                  "name": "n2",
+                  "width": "fill_container",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#DDD8D2"
+                  },
+                  "gap": 8,
+                  "padding": [
+                    8,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "3YV9v",
+                      "name": "n2num",
+                      "fill": "#AAAAAA",
+                      "content": "02",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 10,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "pFs8V",
+                      "name": "n2t",
+                      "fill": "#1A1A1A",
+                      "content": "celeste",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 11,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "xWlCC",
+                  "name": "n3",
+                  "width": "fill_container",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#DDD8D2"
+                  },
+                  "gap": 8,
+                  "padding": [
+                    8,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "eHJAX",
+                      "name": "n3num",
+                      "fill": "#AAAAAA",
+                      "content": "03",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 10,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "qVeuT",
+                      "name": "n3t",
+                      "fill": "#1A1A1A",
+                      "content": "disco_elysium",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 11,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "60Ncn",
+                  "name": "n4",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "stroke": {
+                    "thickness": 2,
+                    "fill": "#1A1A1A"
+                  },
+                  "gap": 8,
+                  "padding": [
+                    8,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "hZu8r",
+                      "name": "n4num",
+                      "fill": "#1A1A1A",
+                      "content": "04",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 10,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "tA6RV",
+                      "name": "n4t",
+                      "fill": "#1A1A1A",
+                      "content": "elden_ring ← new",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 11,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
