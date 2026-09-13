@@ -15,6 +15,7 @@ Analogue flips that. It's a tool built around _constraints_. You commit to what 
 - **Commit or let go.** An active item is either _in progress_, _completed_ (with a review), or _dropped_. No percentages, no chapters, no "on hold". You finish it or you consciously walk away.
 - **Completion = reflection.** When you finish something, you rate it and write about it. Optional voice transcription for when thoughts flow better spoken. This is the moment of presence — you don't just check a box, you sit with what you experienced.
 - **No attention-seeking.** No notifications, no streaks, no gamification. The app is quiet. You come to it when you're ready.
+- **Fewer decisions, not more.** The content is the app. The categories are the navigation. If a control isn't load-bearing, it doesn't exist. Every surface the user lands on should ask of them: _one thing_ (or nothing at all). Cognitive overhead is the enemy of presence.
 - **Self-growth as a side effect.** The constraints push you to try new things. The reviews capture what you thought. Over a year, this becomes a journal of your taste evolving — what you loved, what you dropped, what surprised you.
 
 ## Categories (v1)
@@ -27,6 +28,15 @@ Analogue flips that. It's a tool built around _constraints_. You commit to what 
 **Later (v2):** TV Shows (seasons as the unit of completion)
 
 ## Core Concepts
+
+### Dashboard
+
+The root of the app. Four slots, one per category. Each slot has two states:
+
+- **Occupied** — holds the active item. Surfaces cover art, title, secondary metadata, and category identity.
+- **Empty** — the category has no active item. Entering an empty slot opens the add-item flow for that category.
+
+Category identity is always legible — the user can tell which slot is which without entering it. Entering an occupied slot opens the item's detail view. **No other affordances at root.**
 
 ### Active Slot
 
@@ -87,9 +97,8 @@ Cover art and metadata are fetched from external APIs when adding items:
 3. User picks a result → title, cover art, and metadata are saved locally.
 4. If there's no match (indie game, obscure album, self-published book), the user can create a **custom entry** — just a title, no cover art. Custom entries are saved to the local DB like any other item.
 
-## UX Direction
+## Platform
 
-- **Glanceable.** The home screen shows your 4 active items (or empty slots) with cover art. One screen tells you everything.
 - **PWA.** Installable, works on phone and desktop. Deployed to `analogue.charlies.bot` via Firebase App Hosting.
 
 ## Data Model
@@ -129,16 +138,6 @@ Constraints enforced at the app level:
 - Max 5 items with status "backlog" per category
 - Completing requires a review (rating + description)
 - Dropping records droppedAt but no review
-
-## Tech Stack
-
-- **Angular 21+** — Signals-first, Zoneless, standalone components. No NgModules.
-- **Firebase App Hosting** — git-push deploys to `analogue.charlies.bot`
-- **Firestore** — data persistence from day one. Free tier. Auth-owns-data pattern.
-- **Firebase Auth** — Google sign-in. Each user's data scoped to their UID.
-- **Modern CSS** — component-scoped, no Tailwind, no Sass. Muted/calm palette.
-- **Web Speech API** — voice-to-text for review descriptions (browser-native, no dependency).
-- **Vitest** — testing. **ESLint + Prettier** — linting/formatting.
 
 ## Open Questions
 
