@@ -1,12 +1,20 @@
-# Analogue — Design Doc
+# Analogue — Product Requirements
 
-_A PWA for completing things, not collecting them._
+_An app for completing things, not collecting them._
 
 ## Context
 
 There are countless apps for tracking media consumption — Letterboxd, Goodreads, Backloggd, Last.fm. They all share the same problem: they optimize for _discovery and collection_, not _completion and presence_. For someone with ADHD, this is poison. The dopamine hit comes from adding the next thing, not finishing the current one.
 
 Analogue flips that. It's a tool built around _constraints_. You commit to what you're experiencing right now, and the app holds you to it. No social feed, no recommendations. Just: what are you doing, and are you done yet? And when you're done — reflect on it before moving on.
+
+## Initial Focus
+
+**The initial release focuses exclusively on video games.** The broader goal remains intentional media consumption, but the first experience is built around choosing, playing, completing, and reflecting on games.
+
+The actions and constraints are unchanged: one active game, a backlog of at most five games, completion with a rating and reflection, return to backlog, dropping, and completed/dropped history. This narrows the supported media, not the existing feature requirements.
+
+Multi-category concepts below are preserved as the broader product vision, not initial-release requirements. Books, music, movies, category navigation, and their integrations are outside the initial scope. Future ideas are possibilities, not committed releases.
 
 ## Philosophy
 
@@ -15,36 +23,33 @@ Analogue flips that. It's a tool built around _constraints_. You commit to what 
 - **Commit or let go.** An active item is either _in progress_, _completed_ (with a review), or _dropped_. No percentages, no chapters, no "on hold". You finish it or you consciously walk away.
 - **Completion = reflection.** When you finish something, you rate it and write about it. Optional voice transcription for when thoughts flow better spoken. This is the moment of presence — you don't just check a box, you sit with what you experienced.
 - **No attention-seeking.** No notifications, no streaks, no gamification. The app is quiet. You come to it when you're ready.
-- **Fewer decisions, not more.** The content is the app. The categories are the navigation. If a control isn't load-bearing, it doesn't exist. Every surface the user lands on should ask of them: _one thing_ (or nothing at all). Cognitive overhead is the enemy of presence.
+- **Fewer decisions, not more.** The content is the app. In the broader multi-category vision, the categories are the navigation; the games-only release needs no category navigation. If a control isn't load-bearing, it doesn't exist. Every surface the user lands on should ask of them: _one thing_ (or nothing at all). Cognitive overhead is the enemy of presence.
 - **Self-growth as a side effect.** The constraints push you to try new things. The reviews capture what you thought. Over a year, this becomes a journal of your taste evolving — what you loved, what you dropped, what surprised you.
 
-## Categories (v1)
+## Categories — Broader Product Vision
+
+Only games are included in the initial release. The remaining categories preserve the intended expansion possibilities.
 
 1. **Games** — one active game at a time
 2. **Music** — one active album at a time (full album listening, not singles/playlists)
 3. **Books** — one active book at a time
 4. **Movies** — one active movie at a time. Being present means you actually watched it — not half-watching while on your phone.
 
-**Later (v2):** TV Shows (seasons as the unit of completion)
-
 ## Core Concepts
 
-### Dashboard
+### Home
 
-The root of the app. Four slots, one per category. Each slot has two states:
-
-- **Occupied** — holds the active item. Surfaces cover art, title, secondary metadata, and category identity.
-- **Empty** — the category has no active item. Entering an empty slot opens the add-item flow for that category.
-
-Category identity is always legible — the user can tell which slot is which without entering it. Entering an occupied slot opens the item's detail view. **No other affordances at root.**
+The initial home experience shows the current active game at a glance and offers
+a way to add a game when the slot is empty. The broader product vision supports
+seeing active items across categories; its layout is not an initial requirement.
 
 ### Active Slot
 
 Each category has exactly **one active slot**. When you put something in it, a start date is recorded. Three possible outcomes:
 
 1. **Complete it** — triggers the review flow (rating + description), records completion date, frees the slot.
-2. **Move back to backlog** — you're not ready for this yet, but you still want it. Clears startedAt, moves it back to the queue. No penalty, no log entry.
-3. **Drop it** — a deliberate action with confirmation (_"You started this on Feb 3. Drop it?"_). The item moves to a quiet "dropped" log. No review required.
+2. **Move back to backlog** — you're not ready for this yet, but you still want it. Clears the start date and moves it back to the queue. No penalty, no log entry.
+3. **Drop it** — a deliberate action with confirmation. The item moves to a quiet "dropped" log. No review required.
 
 ### Completion Review
 
@@ -52,7 +57,7 @@ When marking something complete, the app asks for:
 
 - **Rating** — 1-5 stars. Simple enough to not overthink, granular enough to reveal patterns over time.
 - **Description** — free-text reflection. What did you think? What stuck with you?
-- **Voice transcription** — optional. Use the Web Speech API to let users speak their review instead of typing. Lower friction, more natural for capturing in-the-moment thoughts.
+- **Voice transcription** — optional. Let users speak their review instead of typing. Lower friction, more natural for capturing in-the-moment thoughts.
 
 The review is the heart of the app. It's what turns "I finished a game" into "I reflected on an experience."
 
@@ -79,80 +84,42 @@ A chronological list of everything you've finished, with start/completion dates,
 - Stats or streaks
 - Gamification of any kind
 
-## Media APIs
+## Search and Custom Entries
 
-Cover art and metadata are fetched from external APIs when adding items:
-
-| Category | API                             | Notes                                                       |
-| -------- | ------------------------------- | ----------------------------------------------------------- |
-| Games    | IGDB (via Twitch)               | Cover art, platform info                                    |
-| Books    | Google Books API                | Free, no key required for basic queries                     |
-| Movies   | TMDB                            | Free tier, cover art + year                                 |
-| Music    | MusicBrainz + Cover Art Archive | Free, no auth. Or consider Spotify API for better cover art |
-
-**Adding an item flow:**
-
-1. User types in a text input scoped to the current category.
-2. As they type, the app autocompletes from the relevant API (debounced search).
-3. User picks a result → title, cover art, and metadata are saved locally.
-4. If there's no match (indie game, obscure album, self-published book), the user can create a **custom entry** — just a title, no cover art. Custom entries are saved to the local DB like any other item.
+Users can search for games and add a result with its title, cover art, and metadata.
+When no match is found, they can create a custom entry with just a title and no
+cover art. The same capability belongs to the broader product vision for other
+media, including obscure albums and self-published books, but only games are in
+initial scope.
 
 ## Platform
 
-- **PWA.** Installable, works on phone and desktop. Deployed to `analogue.charlies.bot` via Firebase App Hosting.
-
-## Data Model
-
-```
-Category: games | music | books | movies
-
-Item {
-  id: string
-  title: string
-  category: Category
-  status: "active" | "backlog" | "completed" | "dropped"
-  coverUrl: string | null       // from API
-  metadata: {                   // from API, category-specific
-    author?: string             // books
-    artist?: string             // music
-    developer?: string          // games
-    director?: string           // movies
-    year?: number
-    platform?: string           // games
-  }
-  startedAt: Date | null        // set when moved to active
-  completedAt: Date | null      // set when marked complete
-  droppedAt: Date | null        // set when dropped
-  review: {                     // set on completion
-    rating: number              // 1-5 stars
-    description: string
-  } | null
-  createdAt: Date               // when first added
-  position: number              // order in backlog
-}
-```
-
-Constraints enforced at the app level:
-
-- Max 1 item with status "active" per category
-- Max 5 items with status "backlog" per category
-- Completing requires a review (rating + description)
-- Dropping records droppedAt but no review
+A native Android app built with Jetpack Compose, with an adaptive UI for phone,
+large-screen, and resizable desktop-style Android windows. Desktop means the
+Android app adapting to its available window, not a separate Windows, macOS, or
+Linux app. Installability, offline support, and Google sign-in remain requirements.
 
 ## Open Questions
 
 1. **Rating scale:** 1-5 stars. Decided — enough signal for year-end self-reflection without overthinking.
 2. **Music: what counts as "complete"?** Honor system. The point is the _intention_ to sit with an album. One full listen-through is the spirit of it.
-3. **TV shows (v2).** Season as the unit of commitment makes sense — it's a contained arc.
-4. **Year-in-review.** A generated retrospective of everything you completed and dropped, with your reviews. Powerful v2 feature — not for v1.
+3. **Year-in-review.** A generated retrospective of everything you completed and dropped, with your reviews. Possible later feature — not for the initial release.
 
-## v1 Scope
+## Initial Release Scope — Video Games
 
-- PWA shell with offline support and installability
-- 4 categories, each with: 1 active slot, 5-item backlog, completed list, dropped log
-- Search + add items via external APIs (with cover art)
-- Move to active, mark complete (with review), drop
+- Native Android app using Jetpack Compose, with offline support and installability
+- Adaptive Android UI across phone, large-screen, and desktop-style window sizes
+- Games only: 1 active slot, 5-item backlog, completed list, dropped log
+- Search + add games (with cover art), with custom entries when no match is found
+- Move to active, mark complete (with review), return to backlog, drop
 - Voice transcription option for reviews
-- Firestore + Firebase Auth (Google sign-in)
-- Home screen showing current active items at a glance
-- Completed history per category with reviews
+- Google sign-in
+- Home screen showing the current active game at a glance
+- Completed game history with reviews
+
+The broader expansion retains the same active slot, backlog, completed list, dropped log, and reviews for each additional category, with a home screen showing active items across categories. It is not required for this release.
+
+## Supporting Documents
+
+- [Games-first design](design/games-first.md) describes interaction and implementation details, retained broader design context, and unresolved design questions.
+- [Media API candidates](research/media-apis.md) preserves existing provider notes; these are not newly verified research findings.
